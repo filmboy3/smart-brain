@@ -136,7 +136,7 @@ class App extends Component {
         />
         { isProfileOpen &&
           <Modal>
-            <Profile user={user} isProfileOpen={isProfileOpen} toggleModal={this.toggleModal} />
+            <Profile user={user} loadUser={this.loadUser} isProfileOpen={isProfileOpen} toggleModal={this.toggleModal} />
           </Modal>
         }
         { route === 'home'

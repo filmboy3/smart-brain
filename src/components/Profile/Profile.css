@@ -9,3 +9,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.modal-close {
+  font-size: 3rem;
+  font-style: bold;
+  cursor: pointer;
+}
